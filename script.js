@@ -9,6 +9,6 @@
 
 //events link
 
-function kaif(){
-    console.log("kaif");
-}
+// function kaif(){
+//     console.log("kaif");
+// }
