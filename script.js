@@ -22,9 +22,15 @@ const title = document.getElementById("title")
 // title.style.padding = "10px"
 // title.style.borderRadius = "10px"
 
- const a = title.innerHTML
- const b = title.innerText
- const c = title.textContent
- console.log(a);
-console.log(b);
-console.log(c);
+// const a = title.innerHTML
+// const b = title.innerText
+// const c = title.textContent
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+//Dom Create new element
+
+const parent = document.querySelector(".parent");
+
+console.log(parent.children[0].innerHTML);
