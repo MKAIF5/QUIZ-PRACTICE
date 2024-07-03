@@ -12,3 +12,12 @@
 // function kaif(){
 //     console.log("kaif");
 // }
+
+// DOM
+
+const title = document.getElementById("title")
+
+title.style.backgroundColor = "green"
+title.style.height = "100px"
+title.style.padding = "10px"
+title.style.borderRadius = "10px"
