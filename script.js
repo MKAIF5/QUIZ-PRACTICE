@@ -35,10 +35,15 @@ const parent = document.querySelector(".parent");
 
 // console.log(parent.children[0].innerHTML);
 
-for (i = 0; i < parent.children.length; i++) {
-    console.log(parent.children[i].innerHTML);
-}
+// for (i = 0; i < parent.children.length; i++) {
+//     console.log(parent.children[i].innerHTML);
+// }
 
-parent.children[1].style.color = "orange";
-console.log(parent.firstElementChild);
-console.log(parent.lastElementChild);
+// parent.children[1].style.color = "orange";
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+const days = document.querySelector(".day");
+
+console.log(days.parentElement);
+console.log(days.nextElementSibling);
