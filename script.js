@@ -59,11 +59,22 @@ const parent = document.querySelector(".parent");
 // div.appendChild(addText)
 // console.log(div);
 
-function addLanguage(lang) {
-    const li = document.createElement("li")
-    li.innerHTML = lang
-    document.querySelector('.language').appendChild(li)
-}
+// function addLanguage(lang) {
+//     const li = document.createElement("li")
+//     li.innerHTML = lang
+//     document.querySelector('.language').appendChild(li)
+// }
 
-addLanguage("python")
-addLanguage("typescript")
+// addLanguage("python")
+// addLanguage("typescript")
+
+//OBJECTS
+const myObjects = {
+    name: "kaif",
+    age: "15",
+    location: "karachi",
+    email: "kaif@gmail.com",
+    online: true,
+    lastOnlineDays: ["monday", "thursday", "saturday"],
+    family: { sister: "1", brother: "0" }
+}
