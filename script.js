@@ -50,11 +50,20 @@ const parent = document.querySelector(".parent");
 
 // console.log("NODES: " , parent.childNodes);
 
-const div = document.createElement("h1");
-div.className = "main"
-div.id = Math.round(Math.random() * 10 + 1)
-div.setAttribute("title", "kaif")
-// div.innerText = "practice DOM"
-const addText = document.createTextNode("parctice DOM");
-div.appendChild(addText)
-console.log(div);
+// const div = document.createElement("h1");
+// div.className = "main"
+// div.id = Math.round(Math.random() * 10 + 1)
+// div.setAttribute("title", "kaif")
+// // div.innerText = "practice DOM"
+// const addText = document.createTextNode("parctice DOM");
+// div.appendChild(addText)
+// console.log(div);
+
+function addLanguage(lang) {
+    const li = document.createElement("li")
+    li.innerHTML = lang
+    document.querySelector('.language').appendChild(li)
+}
+
+addLanguage("python")
+addLanguage("typescript")
