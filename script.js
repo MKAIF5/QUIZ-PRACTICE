@@ -85,7 +85,10 @@ const myObjects = {
 // console.log(myObjects[location]);
 // console.log(myObjects[mySym]);
 
-
+// Object.freeze(myObjects)
+// myObjects.email = "kaif@google.com"
+// myObjects.email = "kaif@chatgpt.com"
+// console.log(myObjects);
 
 
 //square brakets wale kisse mai nested objects mai error ata hai
