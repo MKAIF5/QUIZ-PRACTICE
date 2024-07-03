@@ -69,12 +69,24 @@ const parent = document.querySelector(".parent");
 // addLanguage("typescript")
 
 //OBJECTS
+const mySym = Symbol("mykey1")
 const myObjects = {
+    [mySym]: "mykey1",
     name: "kaif",
     age: "15",
     location: "karachi",
     email: "kaif@gmail.com",
     online: true,
     lastOnlineDays: ["monday", "thursday", "saturday"],
-    family: { sister: "1", brother: "0" }
+    siblings: { sister: "1", brother: "0" }
 }
+
+// console.log(myObjects.location);
+// console.log(myObjects[location]);
+// console.log(myObjects[mySym]);
+
+
+
+
+//square brakets wale kisse mai nested objects mai error ata hai
+//aur sirf object mai undefined ata hai
