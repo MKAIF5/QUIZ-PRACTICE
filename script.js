@@ -90,6 +90,10 @@ const myObjects = {
 // myObjects.email = "kaif@chatgpt.com"
 // console.log(myObjects);
 
+const kaifApp = new Object();
+const kaifApps = {};
+console.log(kaifApp); //singleTone
+console.log(kaifApps);//nonSingletone
 
 //square brakets wale kisse mai nested objects mai error ata hai
 //aur sirf object mai undefined ata hai
