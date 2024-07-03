@@ -45,5 +45,7 @@ const parent = document.querySelector(".parent");
 
 const days = document.querySelector(".day");
 
-console.log(days.parentElement);
-console.log(days.nextElementSibling);
+// console.log(days.parentElement);
+// console.log(days.nextElementSibling);
+
+console.log("NODES: " , parent.childNodes);
