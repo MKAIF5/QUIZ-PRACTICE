@@ -33,4 +33,10 @@ const title = document.getElementById("title")
 
 const parent = document.querySelector(".parent");
 
-console.log(parent.children[0].innerHTML);
+// console.log(parent.children[0].innerHTML);
+
+for (i = 0; i < parent.children.length; i++) {
+    console.log(parent.children[i].innerHTML);
+}
+
+parent.children[1].style.color = "orange"
