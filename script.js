@@ -108,3 +108,7 @@ console.log(` the value is set ${key} is  ${localStorage.getItem(key)}`)
 if (key == "red" || key == "blue") {
     localStorage.removeItem(key)
 }
+
+if(key == 0){
+    localStorage.clear(key)
+}
