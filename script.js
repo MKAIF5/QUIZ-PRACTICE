@@ -166,3 +166,8 @@
 // const par  = document.getElementsByTagName("p")
 
 // console.log(par);
+
+// const kidNode = document.getElementById("div2");
+// const pNode = kidNode.parentNode;
+
+// console.log(pNode);
