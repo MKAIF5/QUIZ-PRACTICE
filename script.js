@@ -171,3 +171,19 @@
 // const pNode = kidNode.parentNode;
 
 // console.log(pNode);
+
+// const liElements = getElementsByTagName("li");
+// const howManyLi = liElements.length;
+
+// for (const i = 0; i < howManyLi; i++) {
+//     if (liElements[i].innerHTML === "") {
+//         liElements[i].innerHTML = "coming soon";
+//     }
+// }
+
+// const parentDiv = document.getElementById("div1");
+// const newParagraph = document.createElement("p");
+// const t = document.createTextNode("Hello world!");
+// newParagraph.appendChild(t);
+//  const a = parentDiv.appendChild(newParagraph);
+// console.log(a);
