@@ -162,3 +162,7 @@
 // }
 // document.getElementById("city").value = cityName;
 //      }
+
+// const par  = document.getElementsByTagName("p")
+
+// console.log(par);
